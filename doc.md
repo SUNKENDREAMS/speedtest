@@ -1,12 +1,11 @@
-# LibreSpeed
+# APEN SpeedTest
 
-> by Federico Dossena
-> Version 5.4.1
-> [https://github.com/librespeed/speedtest/](https://github.com/librespeed/speedtest/)
+> by CESC
+> Version 1.0.0
 
 ## Introduction
 
-LibreSpeed is a Free and Open Source speed test that you can host on your server(s), and users can run in their browser.
+APEN Speed Test is a Free and Open Source speed test that you can host on your server(s), and users can run in their browser.
 
 __Features:__
 
@@ -34,7 +33,7 @@ Client side, the test can use up to 500MB of RAM on very fast connections.
 
 ## Quick start guides
 
-This video shows the installation process of a standalone LibreSpeed server: [Quick start installation guide for Debian 12](https://fdossena.com/?p=speedtest/quickstart_deb12.frag)
+This video shows the installation process of a standalone server: [Quick start installation guide for Debian 12](https://fdossena.com/?p=speedtest/quickstart_deb12.frag)
 
 More videos will be added later.
 
@@ -224,7 +223,7 @@ __Important__: You can't mix HTTP with HTTPS; if the frontend uses HTTP, you won
 
 __Important__: For HTTPS, all your servers must have valid certificates or the browser will refuse to connect.
 
-If your list of servers changes often, you might not want to have it hardcoded in the HTML file. LibreSpeed can load the server list from a JSON file. To do this, remove the server list and replace it with the URL to your server list, like this:
+If your list of servers changes often, you might not want to have it hardcoded in the HTML file. Speed Test can load the server list from a JSON file. To do this, remove the server list and replace it with the URL to your server list, like this:
 
 ```js
 var SPEEDTEST_SERVERS="your URL here";
